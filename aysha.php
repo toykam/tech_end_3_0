@@ -1,4 +1,4 @@
 <?php 
-   echo"I am Aysha";
-   echo "And i am a black beauty";
-   ?>
+ echo "I am Aysha";
+ echo "And I am a black beauty";
+?>

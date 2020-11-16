@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onlione Shoping</title>
+    <link rel="stylesheet" href="real_js_ass.css">
+</head>
+<body>
+        <!-- --------------------------HEADINGS AND TOP INFOS----------------------- -->
+    <header>
+                <h2>Online SHOPPING Mall</h2>
+    </header>
+    <div class="developer">
+        <a href="m.me/abdullah.ololade.9"><span>Developer's</span>
+        <span>Contact</span></a></div>
+        
+    
+    <!-- ===========NAVIGATION -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="real_js_ass.html">Home</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#more-stories">More Stories</a></li>
+        </ul>
+    </nav>
+
+                    <!-- =====FORM AND LIST OF PRODUCT CONTAINER===== -->
+
+    <div class="container">
+                    <!-- =====LIST AND PICES OF PRODUCTS====== -->
+            <div id="left">
+                <h2>WHAT WE SELL (Naira)</h2>
+             <ul>
+                 <h4><li>Noodles------3,450  <li><br>
+                 <li>Chocolates-------1,700  </li><br>
+                 <li>Candy-------300 </li><br>
+                 <li>Milk-------1,000 </li><br>
+                 <li>Cornflakes-------500</li><br>
+                 <li>BottleDrinks-------2,000</li><br>
+                 <li>Pomade-------3,120</li><br>
+                 <li>Soaps-------5,600</li><br>
+                 <li>FootWears-------4,500</li><br>
+                 <li>Fruits-------1,450</li><br>
+                 <li>Snacks-------500</li><br>
+                 <li>CanFoods-------2,220</li><br>
+                 </h4>
+             </ul>
+            </div>
+              <!-- ====================FORM ===============-->
+            <div class="formss">
+                <form action="result.html" method="POST" onsubmit="return validateTextbox();" >
+                    <!-- =============NAME of User=========== -->
+                    <div class="row">
+                    <!-- <label for="name" id="names">Name:</label> <br> -->
+                        <input type="text" id="name" placeholder="Your Name"> 
+            </div><br> 
+                        <!-- ============Address of User============ -->
+            <div class="row">
+                <!-- <label for="address" id="addresses">Address:</label><br> -->
+                    <input type="text" id="address" placeholder="Input Address">
+        </div><br> 
+                  <!-- ==============Phone Number of User=============== -->
+        <div class="row">
+            <!-- <label for="phone" id="phones"> Phone Number:</label> -->
+                 <input type="number" id="phone" placeholder="Phone Number"><br>
+                 <!-- ==============Gender of user============= -->
+                <br> <label for="gender" id="genders">Your Gender:</label>
+                        <select name="gender" id="gender">
+                            <option-select-hidden>Gender</option-select-hidden>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                        <!-- ===========Custome Purchases========= -->
+             <label> <h4>Now type in what you want, and ensure it is written in the format displayed on the left hand side of the screen </h4></label>
+             <div class="purchase">
+                <input type="text" id="purchase1" placeholder="Your first purchase"><br><br>
+                <input type="text" id="purchase2" placeholder="Your second purchase"><br><br>
+                <input type="text" id="purchase3" placeholder="Your third purchase"><br><br>
+                <input type="text" id="purchase4" placeholder="Your fourth purchase"><br><br>
+                <input type="text" id="purchase5" placeholder="Your fifth purchase"><br><br>
+    </div> 
+          <input type="submit" value="Submit Purchase" id="submit">
+                    </form>
+                    <button onclick="sumUp()" id="add">Add Purchaces</button>
+            </div>
+            </div>
+<!-- =================ABOUS CONTENTS -->
+            <div class="contente" >
+                <div class="about" id="about-us">
+                    <h1>About Us</h1>
+                    <p>We deal with customers all over Nigeria. Our dream is to
+                        make Nigerians purchase whatever thing they want to buy at ease 
+                        through our onliine digital marketing initiative.
+                        You satisfaction is our dream, your happiness is our joy, your joy is
+                        all we want that's why we advice you to palce an order here today.
+                        And add you do so, an unforgetable nice experience is well asured.
+                    </p>
+                </div>
+                <div class="contact" id="contact-us">
+                        <h1>Contact Us</h1>
+                        <p>Simply because we care and we're well compassionate about you, we've made it possible
+                        for you to contact us as you may have one or two things to share with us.
+                        <a href="m.me/abdullah.ololade.9">Facebook</a>
+                        <a href="#"> WhatsApp</a>
+                        </p>
+                </div>
+                <div class="stories" id="more-stories">
+                        <h1>More Stories</h1>
+                        <p>
+                            One of the interesting thing about us is the way we deliver your purchaces to you
+                                in no time.
+                        </p>
+                        <!-- ========BIKE MEN -->
+                        <div class="riders">
+                            <div id="rider1"><img src="bike3.jpg" alt=""></div>
+                         </div> <h4>
+                                Here is one of our Bike Men who rides speedily to ensure
+                            your purchaces get to you in no time
+                         </h4>
+                        <button id="top"><a href="real_js_ass.html"> BACK TO TOP</a></button> 
+                </div>
+    </div>
+    <script src="real_js_ass.js"></script>
+</body>
+</html>

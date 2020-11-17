@@ -1,0 +1,28 @@
+body{
+    background-image: url(image/pic_graph.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    color: rgba(0, 0, 255, 0.788);
+}
+.dee{
+    text-align: center;
+    
+}
+.cony{
+    background-color: wheat;
+    background-size: 30px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    font-size: 130%;
+}
+.tun{
+    text-align: center;
+    background-image: url(image/img_colormap.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+}

@@ -1,0 +1,26 @@
+body{
+    background-color: white;
+}
+.social{
+    background-color: gray;
+}
+#social1{
+    background-color: lightskyblue;
+    display: flex;
+    padding: 10px;
+}
+#social2{
+    background-color: lightskyblue;
+    padding: 10px;
+}
+#social3{
+    background-color: lightskyblue;
+    padding: 10px;
+}
+#social4{
+    background-color: lightskyblue;
+    padding: 10px;
+}
+.learn{
+    text-align: center;
+}

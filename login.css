@@ -1,0 +1,106 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(image/end\ sars/logo.png);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.loginbox{
+    width: 450px;
+    height: 475px;
+    background: rgba(0,0,0,0.9);
+    color: white;
+    top: 20%;
+    left: 27%;
+    position: absolute;
+    transform: translate(-50%, -50);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    box-shadow: 0 0 20px 3px rgba(0,0,0,1.0);
+}
+.user{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 10px;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 85%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"]. input[type="password"]{
+    border: none;
+    border-bottom: 1.0px solid white;
+    background: transparent;
+    outline: none;
+    height: 37px;
+    color: white;
+    font-size: 20px;
+}
+::placeholder{
+    color: graykk;
+}
+.you{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.loginbox a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 25px;
+    color: gray;
+    font-weight: bold;
+}
+.loginbox input[type="button"]:hover{
+    cursor: pointer;
+    background: aqua;
+    color: black;
+}
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: aqua;
+    color: black;
+}
+.yes{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: green;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.loginbox a:hover{
+    color: red;
+}
+.eye{
+    position: absolute;
+}
+#enable{
+    display: none;
+}
